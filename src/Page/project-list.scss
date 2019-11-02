@@ -1,0 +1,18 @@
+// a {
+//   text-decoration: none;
+// }
+
+.item_list {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.item {
+  text-decoration: none;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+// to fix the number of iteams in each row
+// .categories_item { flex: 1 0 20%; margin: 5px; }
