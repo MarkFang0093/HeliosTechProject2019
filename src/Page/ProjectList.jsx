@@ -2,7 +2,6 @@ import React from "react";
 import Card from "../Component/Card";
 import data from "../data/projectData";
 import { useHistory } from "react-router-dom";
-import Button from "@material-ui/core/Button";
 import { Link } from "react-router-dom";
 import "./project-list.scss";
 

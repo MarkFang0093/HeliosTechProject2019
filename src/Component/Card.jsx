@@ -47,8 +47,6 @@ const CustomCard = props => {
     setExpanded(!expanded);
   };
 
-  console.log("what is date?", props.date);
-
   return (
     <Card className={classes.card}>
       <CardHeader

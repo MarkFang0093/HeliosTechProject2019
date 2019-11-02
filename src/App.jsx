@@ -11,7 +11,7 @@ function App() {
         <Switch>
           <Route exact path="/" component={Home} />
           <Route path="/project" component={Project} />
-          {/* <Route path="/projects:id" component={ProjectDetails} /> */}
+          <Route path="/projects/:id" component={ProjectDetails} />
         </Switch>
       </BrowserRouter>
     </div>
