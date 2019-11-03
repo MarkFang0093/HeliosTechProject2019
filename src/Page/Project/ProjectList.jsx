@@ -1,6 +1,6 @@
 import React from "react";
-import Card from "../Component/Card";
-import data from "../data/projectData";
+import Card from "../../Component/Card";
+import data from "../../data/projectData";
 import { useHistory } from "react-router-dom";
 import { Link } from "react-router-dom";
 import "./project-list.scss";

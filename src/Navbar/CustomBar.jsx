@@ -61,9 +61,11 @@ const Custombar = () => {
             <MenuItem onClick={handleClose}>Profile</MenuItem>
           </IconButton> */}
           <div className="menu-items">
-            <MenuItem onClick={handleClose}>About</MenuItem>
-            <MenuItem onClick={handleClose}>Project</MenuItem>
-            <MenuItem onClick={handleClose}>Team</MenuItem>
+            <MenuItem onClick={() => history.push("/about")}>About</MenuItem>
+            <MenuItem onClick={() => history.push("/project")}>
+              Project
+            </MenuItem>
+            <MenuItem onClick={() => history.push("/member")}>Member</MenuItem>
           </div>
 
           <div>
