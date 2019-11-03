@@ -1,6 +1,6 @@
 import React from "react";
 import Project from "./Page/Project";
-import Home from "./Home";
+import Home from "./Page/Home";
 import { BrowserRouter, Router, Route, Link, Switch } from "react-router-dom";
 import ProjectDetails from "./Page/ProjectDetails";
 
