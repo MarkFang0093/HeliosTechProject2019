@@ -1,0 +1,14 @@
+$font-stack:    Helvetica, sans-serif;
+$primary-color: rgb(126, 5, 110);
+
+
+
+
+body {
+ 
+  font: 100% $font-stack;
+  color: $primary-color;
+  left: 50%;
+  transform: translateX(-50%);
+  
+}
