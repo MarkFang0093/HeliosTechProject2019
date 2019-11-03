@@ -1,0 +1,76 @@
+$font-stack:     -apple-system, BlinkMacSystemFont, sans-serif;
+$primary-color: rgb(1, 1, 1);
+$secondary-color: rgb(1, 1, 1);
+//$color:iron
+
+:root {
+  /* spacing values */
+  --space-xxxs: 0.25em;
+  --space-xxs:  0.375em;
+  --space-xs:   0.5em;
+  --space-sm:   0.75em;
+  --space-md:   1.25em;
+  --space-lg:   2em;
+  --space-xl:   3.25em;
+  --space-xxl:  5.25em;
+  --space-xxxl: 8.5em;
+}
+//wtf??????
+title{
+  color: $primary-color
+}
+
+
+body {
+  background-color: #F6F7F9;
+  padding-left: 150px;
+  padding-right: 150px;
+  font: 100% $font-stack;
+  color: $primary-color;
+  line-height: 2.0
+ 
+  
+}
+
+/*
+$base-font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+$base-font-size: 18px;
+$base-font-weight: 300;
+
+$fixed-font-family: -apple-system, BlinkMacSystemFont,  sans-serif;
+$fixed-font-size: 15px;
+$fixed-line-height: 1.2;
+*/
+$heading-font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+$heading-font-weight: 700;
+
+
+/*
+ * Typography
+ */
+
+header{
+  align: 'center';
+  indent: 20px;
+}
+
+
+.h1, .h2, .h3, .h4, .h5, .h6 { font-family: -apple-system, BlinkMacSystemFont; font-weight: $heading-font-weight; }
+.h1, .h2 { 
+  line-height: 1.1; 
+}
+.h3, .h4 { 
+  line-height: 1.3; alignment:'center' 
+}
+.h1 { 
+  font-size: 300%; 
+  letter-spacing: -2px; 
+  align: 'left';
+  indent: 20px;
+}
+.h2 { font-size: 250%; letter-spacing: -2px; }
+.h3 { font-size: 200%; }
+.h4 { font-size: 180%; }
+.h5 { font-size: 130%; }
+.h6 { font-size: 100%; }
+
