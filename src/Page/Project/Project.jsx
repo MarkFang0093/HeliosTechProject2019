@@ -3,6 +3,7 @@ import ProjectList from "./ProjectList";
 import { makeStyles } from "@material-ui/core/styles";
 import Paper from "@material-ui/core/Paper";
 import Typography from "@material-ui/core/Typography";
+import Layout from "../../Layout";
 
 const useStyles = makeStyles(theme => ({
   root: {
@@ -15,13 +16,15 @@ const Project = () => {
 
   return (
     <div>
-      <Paper className={classes.root}>
-        <Typography variant="h5" component="h3">
-          Title of the project
-        </Typography>
-        <Typography component="p">Explanation of the project.</Typography>
-      </Paper>
-      <ProjectList />
+      <Layout>
+        <Paper className={classes.root}>
+          <Typography variant="h5" component="h3">
+            Title of the project
+          </Typography>
+          <Typography component="p">Explanation of the project.</Typography>
+        </Paper>
+        <ProjectList />
+      </Layout>
     </div>
   );
 };
