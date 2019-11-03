@@ -20,6 +20,7 @@ const Project = () => {
           Title of the project
         </Typography>
         <Typography component="p">Explanation of the project.</Typography>
+        <Typography component="p">Explanation of the project.</Typography>
       </Paper>
       <ProjectList />
     </div>
